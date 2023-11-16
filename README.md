@@ -29,9 +29,9 @@ Se crearon contenedores de Docker configurados para que Kafka y ZooKeeper gestio
 Se utilizó PostgreSQL como base de datos para almacenar las predicciones y las características seleccionadas anteriormente para una fácil visualización.
 
 # Instrucciones para Ejecutar el Código:
--Tener instalados Python, Jupyter Notebook, Kafka y PostgreSQL.
--Ejecutar los pasos del EDA en Jupyter Notebook, realizar la selección de funciones, entrenamiento de modelos e integración de Kafka.
--Configurar productores y consumidores de Kafka para su entorno.
--Crear una base de datos PostgreSQL y establecer la conexión con el código para almacenar la tabla con las predicciones.
--Ejecutar el productor de Kafka para iniciar la transmisión de datos.
--Ejecutar el consumidor de Kafka para recibir datos, realizar predicciones y almacenar resultados en la base de datos PostgreSQL creada anteriormente.
+1. Tener instalados Python, Jupyter Notebook, Kafka y PostgreSQL.
+2. Ejecutar los pasos del EDA en Jupyter Notebook, realizar la selección de funciones, entrenamiento de modelos e integración de Kafka.
+3. Configurar productores y consumidores de Kafka para su entorno.
+4. Crear una base de datos PostgreSQL y establecer la conexión con el código para almacenar la tabla con las predicciones.
+5. Ejecutar el productor de Kafka para iniciar la transmisión de datos.
+6. Ejecutar el consumidor de Kafka para recibir datos, realizar predicciones y almacenar resultados en la base de datos PostgreSQL creada anteriormente.
