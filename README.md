@@ -1,12 +1,15 @@
 # WKSHP_-3
 Samuel Patiño Lucumí
+
 ##Taller de aprendizaje automático y transmisión de datos
+
 Intro:
 En este taller construi un modelo automático de regresión para predecir puntuaciones de felicidad en diferentes países utilizando datos de cinco archivos CSV correspondientes a diferentes años (df_2015, df_2016, df_2017, df_2018, df_2019). Todo el proceso lo hice con un EDA, operaciones de extracción, transformación y carga (ETL), selección de funciones, entrenamiento de modelos, transmisión de datos mediante Kafka y almacenamiento de predicciones en una base de datos en PostgreSQL.
 
 ##¿Qué utilicé?
 
 #Tecnologías
+
 -Python
 -Jupyter Notebook
 -Base de datos PostgreSQL
@@ -15,6 +18,7 @@ En este taller construi un modelo automático de regresión para predecir puntua
 -Zookeeper
 
 #Librerias
+
 -Scikit-learn - Esta me sirvió para hacer el modelo de regresión
 -Pandas, Numpy, Matplotlib, Seaborn, Joblib, Psycopg2
 
