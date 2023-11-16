@@ -5,16 +5,16 @@ Samuel Patiño Lucumí
 En este taller, se construyó un modelo automático de regresión para predecir puntuaciones de felicidad en diferentes países utilizando datos de cinco archivos CSV correspondientes a diferentes años (df_2015, df_2016, df_2017, df_2018, df_2019). El proceso incluyó Análisis Exploratorio de Datos (EDA), operaciones de Extracción, Transformación y Carga (ETL), selección de funciones, entrenamiento de modelos, transmisión de datos mediante Kafka y almacenamiento de predicciones en una base de datos PostgreSQL.
 
 # Tecnologías Utilizadas:
--Python
--Jupyter Notebook
--Base de datos PostgreSQL
--Kafka
--Docker
--Zookeeper
+1. Python
+2. Jupyter Notebook
+3. Base de datos PostgreSQL
+4. Kafka
+5. Docker
+6. Zookeeper
 
 # Librerías Utilizadas:
--Scikit-learn: Para construir el modelo de regresión
--Pandas, Numpy, Matplotlib, Seaborn, Joblib, Psycopg2: Herramientas para EDA, manipulación de datos y conexión a la base de datos.
+1. Scikit-learn: Para construir el modelo de regresión
+2. Pandas, Numpy, Matplotlib, Seaborn, Joblib, Psycopg2: Herramientas para EDA, manipulación de datos y conexión a la base de datos.
 
 # EDA:
 -En esta fase, se cargaron y transformaron individualmente cinco archivos CSV (df_2015, df_2016, df_2017, df_2018, df_2019). Después de la limpieza, se concatenaron para crear el DataFrame df_unido. Luego, se extrajeron las características relevantes, y los datos se limpiaron y preprocesaron antes de pasar a los modelos.
