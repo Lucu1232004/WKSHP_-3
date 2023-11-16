@@ -1,0 +1,9 @@
+# Ignorar archivo main.py
+
+# Ignorar archivos generados por Docker
+docker-compose.yml
+
+# Ignorar archivos generados durante la ejecución del código
+*.csv
+
+
